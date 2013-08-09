@@ -1,4 +1,14 @@
 ReAd::Application.routes.draw do
+  resources :companies
+
+  resources :educations
+
+  resources :experiences
+
+  resources :cvs
+
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
